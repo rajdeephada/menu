@@ -1,0 +1,68 @@
+.clearfix{
+    clear: both;
+}
+
+header{
+    background-color: black;
+}
+
+header img{
+    height: 55px;
+    width: 55px;
+    float: left;
+    margin: 10px;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: #FFF;
+    padding: 30px 30px;
+    display: inline-block;
+}
+
+header nav ul li a:hover{
+    background: #FFF;
+    color: #000;
+    transition: 2s;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.prod-img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+}
+
+.btn-buy{
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.3 ease-out;
+    margin-left: 90px;
+}
+
+.footer{
+    background-color: #000;
+    color: #FFF;
+    margin-top: 75px;
+    text-align: center;
+    padding: 20px;
+}
